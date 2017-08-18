@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron text-center">
+  <h1>Stories</h1>
+  <p class="lead">
+    Telling Stories that mean everything to readers. The ground where evryone
+    gets the spark of inspiration to write and tell a story. Do not even begin
+    to tink that I will write perfect anglish. For as long as I can remember
+    I like to keep rough in most of the stuff i do. The stories may not be perfec
+    but the backend and frontend will definately be on the top levels.
+  </p>
+  {% if session.logged_in == NULL %}
+    <a href="/register" class="btn btn-primary">Register</a>
+    <a href="/login" class="btn btn-success">Login</a>
+  {% endif %}
+</div>
+{% endblock %}

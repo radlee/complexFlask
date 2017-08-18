@@ -1,0 +1,106 @@
+Day,Date,stock item,No sold,Sales Price
+Sunday,1-Feb,Milk 1l,3,R10.00
+Sunday,1-Feb,Amasi,1,R25.00
+Sunday,1-Feb,Bread,2,R12.00
+Sunday,1-Feb,Chakalaka Can,3,R10.00
+Sunday,1-Feb,Gold Dish Vegetable Curry Can,2,R9.00
+Sunday,1-Feb,Fanta 500ml,3,R6.50
+Sunday,1-Feb,Coke 500ml,2,R6.50
+Sunday,1-Feb,Cream Soda 500ml,2,R7.50
+Sunday,1-Feb,Iwisa Pap 5kg,0,R30.00
+Sunday,1-Feb,Top Class Soy Mince,2,R12.00
+Sunday,1-Feb,Shampoo 1 litre,1,R30.00
+Sunday,1-Feb,Soap Bar,0,R6.00
+Sunday,1-Feb,Bananas - loose,3,R2.00
+Sunday,1-Feb,Apples - loose,5,R2.00
+Sunday,1-Feb,Mixed Sweets 5s,9,R3.00
+Monday,2-Feb,Milk 1l,4,R10.00
+Monday,2-Feb,Amasi,4,R25.00
+Monday,2-Feb,Bread,5,R12.00
+Monday,2-Feb,Chakalaka Can,4,R10.00
+Monday,2-Feb,Gold Dish Vegetable Curry Can,5,R9.00
+Monday,2-Feb,Fanta 500ml,5,R6.50
+Monday,2-Feb,Coke 500ml,8,R6.50
+Monday,2-Feb,Cream Soda 500ml,4,R7.50
+Monday,2-Feb,Iwisa Pap 5kg,5,R30.00
+Monday,2-Feb,Top Class Soy Mince,3,R12.00
+Monday,2-Feb,Shampoo 1 litre,0,R30.00
+Monday,2-Feb,Soap Bar,2,R6.00
+Monday,2-Feb,Bananas - loose,0,R2.00
+Monday,2-Feb,Apples - loose,0,R2.00
+Monday,2-Feb,Mixed Sweets 5s,0,R3.00
+Tuesday,3-Feb,Milk 1l,7,R10.00
+Tuesday,3-Feb,Amasi,4,R25.00
+Tuesday,3-Feb,Bread,7,R12.00
+Tuesday,3-Feb,Chakalaka Can,4,R10.00
+Tuesday,3-Feb,Gold Dish Vegetable Curry Can,2,R9.00
+Tuesday,3-Feb,Fanta 500ml,5,R6.50
+Tuesday,3-Feb,Coke 500ml,8,R6.50
+Tuesday,3-Feb,Cream Soda 500ml,3,R7.50
+Tuesday,3-Feb,Iwisa Pap 5kg,3,R30.00
+Tuesday,3-Feb,Top Class Soy Mince,3,R12.00
+Tuesday,3-Feb,Shampoo 1 litre,0,R30.00
+Tuesday,3-Feb,Soap Bar,2,R6.00
+Tuesday,3-Feb,Bananas - loose,10,R2.00
+Tuesday,3-Feb,Apples - loose,8,R2.00
+Tuesday,3-Feb,Mixed Sweets 5s,15,R2.00
+Wednesday,4-Feb,Milk 1l,5,R10.00
+Wednesday,4-Feb,Amasi,8,R25.00
+Wednesday,4-Feb,Bread,8,R12.00
+Wednesday,4-Feb,Chakalaka Can,2,R10.00
+Wednesday,4-Feb,Gold Dish Vegetable Curry Can,0,R9.00
+Wednesday,4-Feb,Fanta 500ml,7,R6.50
+Wednesday,4-Feb,Coke 500ml,12,R6.50
+Wednesday,4-Feb,Cream Soda 500ml,2,R7.50
+Wednesday,4-Feb,Iwisa Pap 5kg,1,R30.00
+Wednesday,4-Feb,Top Class Soy Mince,4,R12.00
+Wednesday,4-Feb,Shampoo 1 litre,1,R30.00
+Wednesday,4-Feb,Soap Bar,3,R6.00
+Wednesday,4-Feb,Bananas - loose,16,R2.00
+Wednesday,4-Feb,Apples - loose,8,R2.00
+Wednesday,4-Feb,Mixed Sweets 5s,12,R2.00
+Thursday,5-Feb,Milk 1l,10,R10.00
+Thursday,5-Feb,Amasi,3,R25.00
+Thursday,5-Feb,Bread,12,R12.00
+Thursday,5-Feb,Chakalaka Can,3,R10.00
+Thursday,5-Feb,Gold Dish Vegetable Curry Can,6,R9.00
+Thursday,5-Feb,Fanta 500ml,3,R6.50
+Thursday,5-Feb,Coke 500ml,9,R6.50
+Thursday,5-Feb,Cream Soda 500ml,8,R7.50
+Thursday,5-Feb,Iwisa Pap 5kg,2,R30.00
+Thursday,5-Feb,Top Class Soy Mince,1,R12.00
+Thursday,5-Feb,Shampoo 1 litre,0,R30.00
+Thursday,5-Feb,Soap Bar,1,R6.00
+Thursday,5-Feb,Bananas - loose,8,R2.00
+Thursday,5-Feb,Apples - loose,12,R2.00
+Thursday,5-Feb,Mixed Sweets 5s,5,R3.00
+Friday,6-Feb,Milk 1l,6,R10.00
+Friday,6-Feb,Amasi,4,R25.00
+Friday,6-Feb,Bread,7,R12.00
+Friday,6-Feb,Chakalaka Can,5,R10.00
+Friday,6-Feb,Gold Dish Vegetable Curry Can,2,R9.00
+Friday,6-Feb,Fanta 500ml,7,R6.50
+Friday,6-Feb,Coke 500ml,8,R6.50
+Friday,6-Feb,Cream Soda 500ml,3,R7.50
+Friday,6-Feb,Iwisa Pap 5kg,6,R30.00
+Friday,6-Feb,Top Class Soy Mince,8,R12.00
+Friday,6-Feb,Shampoo 1 litre,1,R30.00
+Friday,6-Feb,Soap Bar,3,R6.00
+Friday,6-Feb,Bananas - loose,2,R2.00
+Friday,6-Feb,Apples - loose,0,R2.00
+Friday,6-Feb,Mixed Sweets 5s,5,R3.00
+Saturday,7-Feb,Milk 1l,4,R10.00
+Saturday,7-Feb,Amasi,6,R25.00
+Saturday,7-Feb,Bread,4,R12.00
+Saturday,7-Feb,Chakalaka Can,2,R10.00
+Saturday,7-Feb,Gold Dish Vegetable Curry Can,0,R9.00
+Saturday,7-Feb,Fanta 500ml,3,R6.50
+Saturday,7-Feb,Coke 500ml,7,R6.50
+Saturday,7-Feb,Cream Soda 500ml,0,R7.50
+Saturday,7-Feb,Iwisa Pap 5kg,0,R30.00
+Saturday,7-Feb,Top Class Soy Mince,1,R12.00
+Saturday,7-Feb,Shampoo 1 litre,0,R30.00
+Saturday,7-Feb,Soap Bar,1,R6.00
+Saturday,7-Feb,Bananas - loose,8,R2.00
+Saturday,7-Feb,Apples - loose,3,R2.00
+Saturday,7-Feb,Mixed Sweets 5s,3,R3.00

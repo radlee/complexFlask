@@ -1,0 +1,23 @@
+
+
+
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>Stories <small>  - {{session.username}} </small></h1>
+  <hr>
+  <table class="table table-striped">
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Date</th>
+    </tr>
+    {% for story in stories %}
+      <tr>
+        <td><a href="story/{{story.id}}">{{story.title}}</a></td>
+        <td><a href="story/{{story.id}}">{{story.author}}</a></td>
+        <td>{{story.create_date}}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock %}

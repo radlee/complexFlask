@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>{{story.title}}</h1>
+  <small>Written by {{story.author}} on {{story.create_date}}</small>
+  <hr>
+  <div class="story">
+    <p>{{story.body | safe}}</p>
+  </div>
+{% endblock %}
