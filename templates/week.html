@@ -1,8 +1,23 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<div class="jumbotron text-center">
-  <h1>CSV</h1>
-  
-</div>
+  <h1>Week 1 <small>Welcome {{session.username}}</small></h1>
+  <a class="btn btn-success" href="/add_item">Add Story</a>
+  <hr>
+  <table class="table table-striped">
+    <tr>
+      <th>Date</th>
+      <th>Productr</th>
+      <th>Number Sold</th>
+      <th>Price</th>
+    </tr>
+    {% for item in data %}
+      <tr>
+        <td>{{item.Date}}</td>
+        <td>{{item.Product}}</td>
+        <td>{{item.Number_Sold}}</td>
+        <td>{{item.Price}}</td>
+      </tr>
+    {% endfor %}
+  </table>
 {% endblock %}

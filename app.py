@@ -3,12 +3,13 @@ from flask import Flask, render_template, request, flash, redirect, url_for, ses
 from flaskext.mysql import MySQL
 from wtforms import Form, StringField, TextAreaField, PasswordField, validators
 from passlib.hash import sha256_crypt
+from readCSVFile import readCSV
+
 #Import pymysql for cursor to return a dictionary for selecting
 #stories from the database
 import pymysql
 import csv
-import os
-import tablib
+
 #Import fucntools for checking if users are looged in
 from functools import wraps
 app = Flask(__name__)
@@ -26,46 +27,16 @@ mysql = MySQL(app)
 #Variable  and equate it to the Storie's function returning stories data
 # Stories = Stories()
 
-dataset = tablib.Dataset()
-with open(os.path.join(os.path.dirname(__file__), 'static/files/Week1.csv')) as f :
-    dataset.csv = f.read()
-
-    data = dataset.csv
-
-    res = data.splitlines()
-
-    listOfLists = []
-    listOfObjects = []
-    for item in res:
-        res = item.split(",")
-        listOfLists.append(res)
-
-        for item in listOfLists:
-            for i in item:
-                d = {}
-                # d["Day"] = item[0]
-                d["Date"] = item[1]
-                d["Product"] = item[2]
-                d["Number_Sold"] = item[3]
-                d["Price"] = item[4]
-            listOfObjects.append(d)
-            print listOfObjects
-
-
-    # print listOfObjects
-
-
 @app.route('/')
 def index():
     return render_template('index.html')
 
 @app.route('/week')
 def readFile():
-    # print dataset
-    # with open('/static/files/week1.csv', 'r') as inFile:
-        # reader = csv.reader(inFile)
-        # linesList = [row for row in reader]
-    return render_template('week.html', dataset=dataset)
+    data = readCSV('static/files/Week1.csv')
+
+    print data
+    return render_template('week.html', data=data)
 
 @app.route('/about')
 def about():
