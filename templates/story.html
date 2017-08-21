@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-  <h1>{{story.title}}</h1>
+  <h1>{{story.title}} <small><a href="/edit_story/{{story.id}}" class="btn btn-default pull-right">EDIT</a></small></h1>
   <small>Written by {{story.author}} on {{story.create_date}}</small>
   <hr>
   <div class="story">

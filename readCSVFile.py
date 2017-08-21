@@ -7,6 +7,7 @@ def readCSV(file_path):
         for item in array:
             arrays = item.split(",")
             listOfLists.append(arrays)
+        del listOfLists[0]
         for item in listOfLists:
             objects = {}
             objects["Day"] = item[0]
@@ -14,7 +15,6 @@ def readCSV(file_path):
             objects["Product"] = item[2]
             objects["Number_Sold"] = item[3]
             objects["Price"] = item[4]
-
             listOfObjects.append(objects)
-
+        print listOfLists
     return listOfObjects

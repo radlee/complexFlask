@@ -31,12 +31,28 @@ mysql = MySQL(app)
 def index():
     return render_template('index.html')
 
-@app.route('/week')
-def readFile():
+@app.route('/week1')
+# @app.route('/week', methods=['GET', 'POST'])
+def week1():
+    # data = readCSV('static/files' + weekname + '.csv')
     data = readCSV('static/files/Week1.csv')
-
-    print data
     return render_template('week.html', data=data)
+
+@app.route('/week2')
+def week2():
+    data = readCSV('static/files/Week2.csv')
+    return render_template('week.html', data=data)
+
+@app.route('/week3')
+def week3():
+    data = readCSV('static/files/Week3.csv')
+    return render_template('week.html', data=data)
+
+@app.route('/week4')
+def Week4():
+    data = readCSV('static/files/Week4.csv')
+    return render_template('week.html', data=data)
+
 
 @app.route('/about')
 def about():

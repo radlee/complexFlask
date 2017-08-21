@@ -1,0 +1,69 @@
+.btn {
+border-radius: 0px;
+}
+
+.jumbotron {
+background-color: #D2D5FA;
+}
+
+.text-muted {
+color: #C6C6C6;
+font-size: 13px;
+}
+
+.btn-default {
+color: #726A6A;
+border-color: #29CCDC;
+}
+
+.btn-default:hover {
+color: #DAA908 !important;
+background-color: white;
+border-color: #29CCDC !important;
+}
+.btn-danger {
+color: #747474 !important;
+background-color: #FFFFFF !important;
+border-color: #d43f3a !important;
+}
+
+.btn-danger:hover {
+color: #DAA908 !important;
+border-color: #D30000 !important;
+}
+
+.btn-success {
+color: #7B7B7B;
+background-color: #FFFFFF !important;
+border-color: #4cae4c;
+}
+
+.btn-success-login {
+color: white;
+background-color: #23527c;
+border: solid #23527c 3px;
+}
+
+.btn-success-login:hover{
+color: #23527c;
+background-color: #D2D5FA;
+border: solid #23527c 3px;
+}
+
+.btn-success:hover{
+color: #4cae4c;
+background-color: #FFFFFF !important;
+border-color: #4cae4c;
+}
+
+.btn-primary-light {
+color: #FFFFFF;
+background-color: #0A910A;
+border: solid #0A910A 3px;
+}
+
+.btn-primary-light:hover{
+  color: #0A910A;
+  background-color: #D2D5FA;
+  border: solid #0A910A 3px;
+}

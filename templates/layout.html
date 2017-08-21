@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Stories</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../static/custom_style.css">
+    <!-- <link rel="stylesheet" href="{{url_for('static', filename='styles/custom_style.css') }}"> -->
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/light.css') }}">
     <link rel="shortcut icon" href="https://mir-s3-cdn-cf.behance.net/project_modules/disp/55443436960645.57303c1fb8f35.png">
   </head>
   <body>
@@ -22,10 +23,18 @@
       CKEDITOR.replace('editor')
     </script>
   </body>
+  <!-- Javascript -->
+<!-- <script src="../static/jquery.backstretch.min.js"></script> -->
+<!-- Backstretch Background Image -->
+<!-- <script> -->
+<!-- $.backstretch(["../static/1.jpg"]); -->
+<!-- </script> -->
+
+<!-- <script src="../static/jquery.backstretch.min.js"></script> -->
 
   <footer class="footer">
     <div class="container">
-      <p style="text-align: center;"class="text-muted">&copy; ODS 2017</p>
+      <p style="text-align: center; text-size: 12px"class="text-muted">&copy; ODS 2017</p>
     </div>
   </footer>
 </html>
