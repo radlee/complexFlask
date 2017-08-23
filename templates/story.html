@@ -1,10 +1,12 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-  <h1>{{story.title}} <small><a href="/edit_story/{{story.id}}" class="btn btn-default pull-right">EDIT</a></small></h1>
-  <small>Written by {{story.author}} on {{story.create_date}}</small>
+  <h1 style="text-align: center">{{story.title}} <small><a href="/edit_story/{{story.id}}" class="btn btn-default pull-right">EDIT</a></small></h1>
+  <p style="text-align: center !important; color: red;">
+    <small>Written by {{story.author}} on {{story.create_date}}</small>
+  </p>
   <hr>
-  <div class="story">
+  <div style="font-family: serif;font-size: 23px;line-height: 1.9; color: white">
     <p>{{story.body | safe}}</p>
   </div>
 {% endblock %}

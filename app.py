@@ -5,6 +5,8 @@ from wtforms import Form, StringField, TextAreaField, PasswordField, validators
 from passlib.hash import sha256_crypt
 from readCSVFile import readCSV
 
+from werkzeug import secure_filename
+
 #Import pymysql for cursor to return a dictionary for selecting
 #stories from the database
 import pymysql
@@ -31,27 +33,22 @@ mysql = MySQL(app)
 def index():
     return render_template('index.html')
 
-@app.route('/week1')
-# @app.route('/week', methods=['GET', 'POST'])
-def week1():
-    # data = readCSV('static/files' + weekname + '.csv')
-    data = readCSV('static/files/Week1.csv')
-    return render_template('week.html', data=data)
+@app.route('/<week_name>')
+def week(week_name):
+    data = readCSV('static/files/' + week_name + '.csv')
+    return render_template('week.html', data=data, week_name=week_name)
 
-@app.route('/week2')
-def week2():
-    data = readCSV('static/files/Week2.csv')
-    return render_template('week.html', data=data)
+@app.route('/users')
+def Users():
+    return render_template('users.html')
 
-@app.route('/week3')
-def week3():
-    data = readCSV('static/files/Week3.csv')
-    return render_template('week.html', data=data)
+@app.route('/gallery')
+def Gallery():
+    return render_template('gallery.html')
 
-@app.route('/week4')
-def Week4():
-    data = readCSV('static/files/Week4.csv')
-    return render_template('week.html', data=data)
+# @app.route('/upload')
+# def Upload():
+#     return render_template('gallery.html')
 
 
 @app.route('/about')

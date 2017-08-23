@@ -1,16 +1,16 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-  <h1>Dashboard <small>Welcome {{session.username}}</small></h1>
-  <a class="btn btn-success" href="/add_story">ADD STORY</a>
+  <h1>Dashboard <small style="color: white;">Welcome {{session.username}}</small></h1>
+  <a class="btn btn-success" href="/stories">VIEW STORIES</a>
   <hr>
   <table class="table table-striped">
     <tr>
-      <th>ID</th>
+      <th>ID#</th>
       <th>Title</th>
-      <th>Author</th>
-      <th>Date</th>
-      <th></th>
+      <th>Username</th>
+      <th>Date Published</th>
+      <th colspan="2"><a class="btn btn-success  btn-block" href="/add_story">ADD A STORY</a></th>
       <th></th>
     </tr>
     {% for story in stories %}
@@ -30,3 +30,27 @@
     {% endfor %}
   </table>
 {% endblock %}
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
